@@ -19,7 +19,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
     }
     fetchData();
   }, [fetchUrl]); // fetchUrl is always getting change so have to have to have to include
-  console.log(movies);
+  // console.log(movies);
   return (
     <div className="row">
       {/* title */}
